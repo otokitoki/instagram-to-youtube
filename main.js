@@ -4,7 +4,7 @@ window.onload = function() {
   const afterParam = beforeParam.replace("q=https://youtu.be/", "");
   
   // カスタムURLスキーム
-  let url = 'javascript:location.protocol="youtube:' + param; 
+  let url = 'javascript:location.protocol="youtube:' + afterParam; 
   location.href = url;
   
   document.write(url)
