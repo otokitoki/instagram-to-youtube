@@ -7,5 +7,5 @@ window.onload = function() {
   let url = 'javascript:location.protocol="youtube:' + afterParam; 
   location.href = url;
   
-  document.write(url)
+  window.alert(url)
 }
